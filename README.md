@@ -1,9 +1,9 @@
-# *Chords
+# Chords
 Give it a root note, then choose whether it's a major or minor, and *Chords will help you start that masterpiece. Scales and chords go hand in hand. They are an algorithm, a pattern. I just wanted a simple tool to help me see what chords fit in specific scales, and the diatonic triads of the chords. 
 
 ## Getting Started
 
-*Chords is designed with a simple GUI and meant to be executed as a bash script.
+Chords is designed with a simple GUI and meant to be executed as a bash script.
 
 ### Prerequisites
 
