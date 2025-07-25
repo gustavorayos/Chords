@@ -183,7 +183,7 @@ printf "\n"
 printWidth
 printCenter2 "1. Choose a root note: C, C#, D, D#, E, F, F#, G, G#, A, A#, B"
 printCenter2 "2. Choose a scale type: (1) Major, (2) Natural Minor, (3) Harmonic Minor, (4) Melodic Minor"
-printCenter2 "Enter \"x\" at any time to quit"
+printCenter2 "Enter \"q\" at any time to quit"
 printWidth
 
 # Prompt the user for the root note and scale type
@@ -191,7 +191,7 @@ while true; do
     echo ""
     read -p "Choose a root note: C, C#, D, D#, E, F, F#, G, G#, A, A#, B: " user_root_note
 
-    if [[ "${user_root_note,,}" == "x" ]]; then
+    if [[ "${user_root_note,,}" == "q" ]]; then
         echo "Exiting..."
         break
     elif [[ -z "$user_root_note" ]]; then
@@ -202,7 +202,7 @@ while true; do
     read -p "Choose a scale type: (1) Major, (2) Natural Minor, (3) Harmonic Minor, (4) Melodic Minor): " user_scale_type_number
     goodFlag=1
     
-    if [[ "${user_scale_type_number,,}" == "x" ]]; then
+    if [[ "${user_scale_type_number,,}" == "q" ]]; then
         echo "Exiting..."
         break
     elif [[ -z "$user_scale_type_number" ]]; then
