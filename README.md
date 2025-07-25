@@ -7,11 +7,11 @@ Give it a root note, then choose whether it's a major or minor, and *Chords will
 
 ### Prerequisites
 
-1) Unix based system with bash v4 or above installed.
+* Unix based system with bash v4 or above installed.
 
 ### Installing
 
-Copy .sh script to system and double click, or run on terminal.
+* Copy .sh script to system and double click, or run on terminal.
 
 ## Built With
 
