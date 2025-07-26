@@ -7,7 +7,7 @@ Chords is designed with a simple GUI and meant to be executed as a bash script.
 
 ### Prerequisites
 
-* Unix based system with bash v4 or above installed.
+* Unix based system with bash v4 or above installed (tested on MacBook with latest Bash installed through homebrew).
 
 ### Installing
 
