@@ -16,7 +16,6 @@ Chords is designed with a simple GUI and meant to be executed as a bash script.
 ## Built With
 
 * Google Gemini
-* Love
 * Curiosity
 
 ## Authors
