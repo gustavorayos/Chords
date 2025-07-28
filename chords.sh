@@ -199,7 +199,7 @@ while true; do
         continue
     fi
 
-    read -p "Choose a scale type: (1) Major, (2) Natural Minor, (3) Harmonic Minor, (4) Melodic Minor): " user_scale_type_number
+    read -p "Choose a scale type: (1) Major, (2) Natural Minor, (3) Harmonic Minor, (4) Melodic Minor: " user_scale_type_number
     goodFlag=1
     
     if [[ "${user_scale_type_number,,}" == "q" ]]; then
