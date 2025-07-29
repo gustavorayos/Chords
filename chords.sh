@@ -1,69 +1,69 @@
 #!/opt/homebrew/Cellar/bash/5.3.3/bin/bash
 
 printWidth () {
-        width=$(tput cols)
-        i=0
-        while [[ i -lt $width ]]
-        do
-                printf "-"
-                ((i++))
-        done
-        printf "\n"
+    width=$(tput cols)
+    i=0
+    while [[ i -lt $width ]]
+    do
+        printf "-"
+        ((i++))
+    done
+    printf "\n"
 }
 
 printWidth2 () {
-        width=$(tput cols)
-        i=0
-        while [[ i -lt $width ]]
-        do
-                printf "="
-                ((i++))
-        done
-        printf "\n"
+    width=$(tput cols)
+    i=0
+    while [[ i -lt $width ]]
+    do
+        printf "="
+        ((i++))
+    done
+    printf "\n"
 }
 
 printCenter () {
-        width5=$(tput cols)
-        stringArg=$@
-        stringLen=${#stringArg}
-        halfStringLen=$(($stringLen/2))
-        width6=$(($width5/2-$halfStringLen-1))
-        i=0
-        while [[ i -lt $width6 ]]
-        do
-                printf "="
-                ((i++))
-        done
-        printf " $@ "
-        i=0
-        while [[ i -lt $width6 ]]
-        do
-                printf "="
-                ((i++))
-        done
-        printf "\n"
+    width5=$(tput cols)
+    stringArg=$@
+    stringLen=${#stringArg}
+    halfStringLen=$(($stringLen/2))
+    width6=$(($width5/2-$halfStringLen-1))
+    i=0
+    while [[ i -lt $width6 ]]
+    do
+        printf "="
+        ((i++))
+    done
+    printf " $@ "
+    i=0
+    while [[ i -lt $width6 ]]
+    do
+        printf "="
+        ((i++))
+    done
+    printf "\n"
 }
 
 printCenter2 () {
-        width5=$(tput cols)
-        stringArg=$@
-        stringLen=${#stringArg}
-        halfStringLen=$(($stringLen/2))
-        width6=$(($width5/2-$halfStringLen-1))
-        i=1
-        while [[ i -lt $width6 ]]
-        do
-                printf " "
-                ((i++))
-        done
-        printf " $@ "
-        i=0
-        while [[ i -lt $width6 ]]
-        do
-                printf " "
-                ((i++))
-        done
-        printf "\n"
+    width5=$(tput cols)
+    stringArg=$@
+    stringLen=${#stringArg}
+    halfStringLen=$(($stringLen/2))
+    width6=$(($width5/2-$halfStringLen-1))
+    i=1
+    while [[ i -lt $width6 ]]
+    do
+        printf " "
+        ((i++))
+    done
+    printf " $@ "
+    i=0
+    while [[ i -lt $width6 ]]
+    do
+        printf " "
+        ((i++))
+    done
+    printf "\n"
 }
 
 # Define the notes in order (representing semitones from C)
@@ -173,18 +173,22 @@ list_chords_in_key() {
     done
 }
 
-# Main code section
-printf "\n"
-printWidth2
-printCenter "WELCOME TO *CHORDS"
-printWidth2
+title () {
+    printf "\n"
+    printWidth2
+    printCenter "WELCOME TO *CHORDS"
+    printWidth2
 
-printf "\n"
-printWidth
-printCenter2 "1. Choose a root note: C, C#, D, D#, E, F, F#, G, G#, A, A#, B"
-printCenter2 "2. Choose a scale type: (1) Major, (2) Natural Minor, (3) Harmonic Minor, (4) Melodic Minor"
-printCenter2 "Enter \"q\" at any time to quit"
-printWidth
+    printf "\n"
+    printWidth
+    printCenter2 "1. Choose a root note: C, C#, D, D#, E, F, F#, G, G#, A, A#, B"
+    printCenter2 "2. Choose a scale type: (1) Major, (2) Natural Minor, (3) Harmonic Minor, (4) Melodic Minor"
+    printCenter2 "Enter \"q\" at any time to quit"
+    printWidth
+}
+
+# Main code section
+title
 
 # Prompt the user for the root note and scale type
 while true; do
@@ -194,6 +198,11 @@ while true; do
     if [[ "${user_root_note,,}" == "q" ]]; then
         echo "Exiting..."
         break
+    elif [[ "${user_root_note,,}" == "r" ]]; then
+        echo "Resetting..."
+	clear
+        title   
+	continue
     elif [[ -z "$user_root_note" ]]; then
         echo "Key cannot be empty. Please try again." >&2
         continue
@@ -205,6 +214,11 @@ while true; do
     if [[ "${user_scale_type_number,,}" == "q" ]]; then
         echo "Exiting..."
         break
+    elif [[ "${user_scale_type_number,,}" == "r" ]]; then
+        echo "Resetting..."
+        clear
+        title
+        continue
     elif [[ -z "$user_scale_type_number" ]]; then
         echo "Key cannot be empty. Please try again." >&2
         continue
