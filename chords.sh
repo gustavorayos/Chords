@@ -188,6 +188,7 @@ title () {
 }
 
 # Main code section
+clear
 title
 
 # Prompt the user for the root note and scale type
@@ -196,7 +197,8 @@ while true; do
     read -p "Choose a root note: C, C#, D, D#, E, F, F#, G, G#, A, A#, B: " user_root_note
 
     if [[ "${user_root_note,,}" == "q" ]]; then
-        echo "Exiting..."
+        clear
+        echo "Exiting Chords... Have a great day!"
         break
     elif [[ "${user_root_note,,}" == "r" ]]; then
         echo "Resetting..."
@@ -212,7 +214,8 @@ while true; do
     goodFlag=1
     
     if [[ "${user_scale_type_number,,}" == "q" ]]; then
-        echo "Exiting..."
+        clear
+        echo "Exiting Chords... Have a great day!"
         break
     elif [[ "${user_scale_type_number,,}" == "r" ]]; then
         echo "Resetting..."
