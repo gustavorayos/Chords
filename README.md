@@ -1,5 +1,5 @@
 # Shellchords
-Give it a root note, then choose whether it's a major or minor, and 'Shellchords will help you start that masterpiece. Scales and chords go hand in hand. They are an algorithm, a pattern. I just wanted a simple tool to help me see what chords fit in specific scales, and the diatonic triads of the chords. 
+Give it a root note, then choose whether it's a major or minor, and Shellchords will help you start that masterpiece. Scales and chords go hand in hand. They are an algorithm, a pattern. I just wanted a simple tool to help me see what chords fit in specific scales, and the diatonic triads of the chords. 
 
 ## Getting Started
 
