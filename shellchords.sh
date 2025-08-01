@@ -1,7 +1,7 @@
 #!/bin/bash
 #!/opt/homebrew/Cellar/bash/5.3.3/bin/bash
 
-#title functions
+# Bash script to calculate diatonic chords and triads
 printWidth () {
     width=$(tput cols)
     i=0
