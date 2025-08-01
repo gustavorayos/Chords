@@ -1,6 +1,7 @@
 #!/bin/bash
 #!/opt/homebrew/Cellar/bash/5.3.3/bin/bash
 
+# title functions
 printWidth () {
     width=$(tput cols)
     i=0
