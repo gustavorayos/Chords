@@ -1,5 +1,3 @@
-# PowerShell script to calculate diatonic chords and triads
-
 <################################################################################>
 <##                                                                            ##>
 <##      SHELLCHORDS v25.8                                                     ##>
@@ -9,6 +7,8 @@
 <##          https://www.github.com/gustavorayos                               ##>
 <##                                                                            ##>
 <################################################################################>
+
+# PowerShell script to calculate diatonic chords and triads
 
 function centerText ($string1) {
 
