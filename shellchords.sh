@@ -1,7 +1,16 @@
 #!/bin/bash
 #!/opt/homebrew/Cellar/bash/5.3.3/bin/bash
 
-# Bash script to calculate diatonic chords and triads
+################################################################################
+##                                                                            ##
+##      SHELLCHORDS v25.8                                                     ##
+##      Written by: Gustavo Rayos (www.gustavorayos.com)                      ##
+##                                                                            ##
+##      This script can be downloaded from                                    ##
+##          https://www.github.com/gustavorayos                               ##
+##                                                                            ##
+################################################################################
+
 printWidth () {
     width=$(tput cols)
     i=0
