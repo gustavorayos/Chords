@@ -32,8 +32,8 @@ function title {
     Write-Host "`n$widthHyphens"
     centerText -string1 "1. Choose a root note: C, C#, D, D#, E, F, F#, G, G#, A, A#, B"
     centerText -string1 "2. Choose a scale type: (1) Major, (2) Natural Minor, (3) Harmonic Minor, (4) Melodic Minor"
-    centerText -string1 "Enter `"q`" at any time to quit."
     centerText -string1 "Enter `"r`" at any time to reset."
+    centerText -string1 "Enter `"q`" at any time to quit."
     Write-Host "$widthHyphens`n"
 }
 

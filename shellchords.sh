@@ -184,8 +184,8 @@ title () {
     printWidth
     printCenter2 "1. Choose a root note: C, C#, D, D#, E, F, F#, G, G#, A, A#, B"
     printCenter2 "2. Choose a scale type: (1) Major, (2) Natural Minor, (3) Harmonic Minor, (4) Melodic Minor"
+    printCenter2 "Enter \"r\" at any time to reset."    
     printCenter2 "Enter \"q\" at any time to quit."
-    printCenter2 "Enter \"r\" at any time to reset."
     printWidth
 }
 
