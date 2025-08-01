@@ -1,5 +1,5 @@
 #!/opt/homebrew/Cellar/bash/5.3.3/bin/bash
-
+s
 printWidth () {
     width=$(tput cols)
     i=0
