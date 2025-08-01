@@ -8,8 +8,6 @@
 <##                                                                            ##>
 <################################################################################>
 
-# PowerShell script to calculate diatonic chords and triads
-
 function centerText ($string1) {
 
     $width1 = $Host.UI.RawUI.WindowSize.Width - 4
