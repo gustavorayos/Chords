@@ -16,6 +16,10 @@ Shellchords is designed with a simple GUI and meant to be executed as a bash scr
 * Copy .ps1 script to system and right click and select run in Powershell. OR
 * Copy .exe file to Windows system and double click.
 
+## Notes
+
+* On Mac OS, you won't be able to run this using the default bash that is installed Mac OS X. You'll need to install bash v4 to be able to run it. This can be done using homebrew, and you'll also have to add the correct location of where bash is located (Ex. #!/opt/homebrew/Cellar/bash/5.3.3/bin/bash). 
+
 ## Built With
 
 * Google Gemini
