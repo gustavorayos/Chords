@@ -12,9 +12,9 @@ Give it a root note, then choose whether it's a major or minor, and Shellchords 
 
 ### Installing
 
-* Copy .sh script to system and double click, or run on terminal. OR
-* Copy .ps1 script to system and right click and select run in Powershell. OR
-* Copy .exe file to Windows system and double click.
+* Copy .sh script to system and double click, or run on terminal OR
+* Copy .ps1 script to system and right click and select run in Powershell OR
+* Copy .exe file to Windows system and double click
 
 ## Notes
 
