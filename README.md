@@ -1,6 +1,8 @@
 # Shellchords
 Give it a root note, then choose whether it's a major or minor, and Shellchords will help you start that masterpiece. Scales and chords go hand in hand. They are an algorithm, a pattern. I just wanted a simple tool to help me see what chords fit in specific scales, and the diatonic triads of the chords. 
 
+<img width="765" height="408" alt="Screenshot 2025-08-03 at 10 22 59 PM" src="https://github.com/user-attachments/assets/d42d4517-2966-4cd9-91d7-017004fc8ce3" />
+
 ## Getting Started
 
 Shellchords is designed with a simple GUI and meant to be executed as a bash script.
