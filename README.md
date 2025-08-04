@@ -5,8 +5,6 @@ Give it a root note, then choose whether it's a major or minor, and Shellchords 
 
 ## Getting Started
 
-Shellchords is designed with a simple GUI and meant to be executed as a bash script.
-
 ### Prerequisites
 
 * Unix based system with bash v4 or above installed (tested on MacBook with latest Bash installed through homebrew) OR
@@ -20,7 +18,7 @@ Shellchords is designed with a simple GUI and meant to be executed as a bash scr
 
 ## Notes
 
-* On Mac OS, you won't be able to run this using the default bash that is installed Mac OS X. You'll need to install bash v4 to be able to run it. This can be done using homebrew, and you'll also have to add the correct location of where bash is located (Ex. #!/opt/homebrew/Cellar/bash/5.3.3/bin/bash). 
+On Mac OS, you won't be able to run this using the default bash that is installed Mac OS X. You'll need to install bash v4 to be able to run it. This can be done using homebrew, and you'll also have to add the correct location of where bash is located (Ex. #!/opt/homebrew/Cellar/bash/5.3.3/bin/bash). 
 
 ## Built With
 
@@ -29,7 +27,7 @@ Shellchords is designed with a simple GUI and meant to be executed as a bash scr
 
 ## Authors
 
-* **Gustavo Rayos** - *Initial work* - [gustavorayos.com](https://www.gustavorayos.com)
+**Gustavo Rayos** - *Initial work* - [gustavorayos.com](https://www.gustavorayos.com)
 
 ## Acknowledgments
 
