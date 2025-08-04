@@ -22,8 +22,10 @@ On Mac OS, you won't be able to run this using the default bash that is installe
 
 ## Built With
 
-* Google Gemini
-* Curiosity
+* Google Gemini - https://gemini.google.com/app
+* Visual Studio Code - 
+* Homebrew
+* PS2EXE
 
 ## Authors
 
