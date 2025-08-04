@@ -22,14 +22,14 @@ On Mac OS, you won't be able to run this using the default bash that is installe
 
 ## Built With
 
-* Google Gemini - https://gemini.google.com/app
-* Visual Studio Code - 
-* Homebrew
-* PS2EXE
+* [Google Gemini](https://gemini.google.com/app)
+* [Visual Studio Code](https://code.visualstudio.com/) 
+* [Homebrew](https://brew.sh/)
+* [PS2EXE](https://github.com/MScholtes/PS2EXE)
 
 ## Authors
 
-**Gustavo Rayos** - *Initial work* - [gustavorayos.com](https://www.gustavorayos.com)
+**Gustavo Rayos** - [gustavorayos.com](https://www.gustavorayos.com)
 
 ## Acknowledgments
 
